@@ -18,7 +18,7 @@
 }
 
 .imghcm {
-  background: url("IMG/hihi.jpg");
+  background: url("IMG/hihi.webp");
   width: 100%;
 
   background-size: cover;
@@ -36,7 +36,7 @@
 }
 
 .imgloqca {
-  background: url("IMG/IMG_1091.png");
+  background: url("IMG/IMG_1091.webp");
   width: 40%;
   height: 1000px;
   background-size: cover;
@@ -68,7 +68,7 @@
 }
 
 .image-profile {
-  background: url("IMG/LoqCa.jpg");
+  background: url("IMG/LoqCa.webp");
   width: 250px;
   height: 250px;
   border-radius: 50%;
