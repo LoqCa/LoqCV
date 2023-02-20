@@ -1,0 +1,224 @@
+/* vietnamese */
+@font-face {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 900;
+  src: url(https://fonts.gstatic.com/s/raleway/v28/1Ptug8zYS_SKggPNyCIIT5lu.woff2)
+    format("woff2");
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1,
+    U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "PT Sans", sans-serif;
+  text-decoration: none;
+}
+
+.imghcm {
+  background: url("IMG/hihi.jpg");
+  width: 100%;
+
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.image a {
+  color: red;
+}
+.image:hover a {
+  color: yellow;
+}
+.introvshuman {
+  display: flex;
+  justify-content: right;
+}
+
+.imgloqca {
+  background: url("IMG/IMG_1091.png");
+  width: 40%;
+  height: 1000px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.intro {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  padding-top: 450px;
+  color: #ffffff;
+}
+
+.readmore {
+  letter-spacing: 3px;
+  font-size: 1.25rem;
+  border-style: none;
+  text-transform: uppercase;
+  background-image: none;
+  font-weight: 400;
+  margin: 45px auto 0 0;
+  background-color: #000000 !important;
+  color: #ffffff;
+}
+
+.fontloqca {
+  font-size: 6rem;
+}
+
+.image-profile {
+  background: url("IMG/LoqCa.jpg");
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.tatcathongtin {
+  display: flex;
+  flex-direction: row;
+  width: 60%;
+  margin: 0 auto;
+  font-family: "PT Sans", sans-serif;
+}
+
+.gioithieu1 {
+  text-align: center;
+  font-family: "PT Sans", sans-serif;
+}
+
+.thongtin1 {
+  width: 33%;
+  padding: 30px;
+}
+.thongtin2 {
+  width: 33%;
+  padding: 30px;
+}
+.thongtin2 .image-profile {
+  margin: 0 auto;
+}
+.thongtin3 {
+  width: 33%;
+  padding: 30px;
+}
+.thongtin3 i {
+  width: 30px;
+}
+
+.bar {
+  position: relative;
+  width: 60%;
+  margin: 0 auto;
+}
+
+.bar > i {
+  position: absolute;
+  right: 0px;
+  margin: 20px;
+}
+
+.bar > img {
+  position: relative;
+  margin: 20px;
+}
+
+@media screen and (max-width: 812px) {
+  .tatcathongtin {
+    flex-direction: column;
+    width: 100%;
+  }
+  .thongtin1 {
+    width: 100%;
+  }
+  .icon {
+    display: flex;
+    flex-direction: row;
+  }
+  .thongtin2 {
+    display: flex;
+
+    justify-content: center;
+    width: 100%;
+    margin: auto;
+  }
+}
+
+.thongtintrang2 {
+  width: 60%;
+  margin: 0 auto;
+}
+
+.aboutme {
+  margin: 100px 0px 0px 0px;
+}
+
+.gachchan {
+  border: 3px solid coral;
+  width: 170px;
+}
+
+.imagework2 {
+  width: 80%;
+  height: 500px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 15px 0px 0px 0px;
+}
+
+.texttrang2 {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin: 15px 0px 0px 0px;
+  text-align: left;
+  position: relative;
+}
+
+.worktrang2 {
+  display: flex;
+  flex-direction: column;
+  color: #ffffff;
+  background-color: orangered;
+  padding: 30px;
+  font-size: 1rem;
+  text-align: left;
+  margin-top: -100px;
+  width: 300px;
+  height: 250px;
+}
+
+.worktrang2 h6 {
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+.workvstexttrang2 {
+  display: flex;
+  flex-direction: row;
+}
+
+.gmail:hover {
+  color: blanchedalmond;
+}
+
+.tel:hover {
+  color: blanchedalmond;
+}
+
+.gmail {
+  color: #ffffff;
+}
+.tel {
+  color: #ffffff;
+}
+
+.texttrang2 a {
+  color: red;
+}
+.texttrang2:hover a {
+  color: yellow;
+}
